@@ -9,6 +9,9 @@ namespace AudioPlayer
     class Artist
     {
         public string Name;
+        public string Nickname;
+        public string Country;
+
         public Artist() {
             this.Name = "unknown_artist";
         }
