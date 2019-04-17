@@ -13,8 +13,21 @@ namespace AudioPlayer
         public string Path;
         public string Lyries;
         public string Genre;
-
         public Artist Artist;
-        Album Album;
+        public Album Album;
+        public Playlist Playlist;
+  
+
+        public Song()
+        {
+            this.Duration = 196;
+            this.Title = "Back in Black";
+            this.Genre = "Hard Rock";
+        }
+        public Song(string title, string genre)
+        {
+            this.Title = title;
+            this.Genre = genre;
+        }
     }
 }

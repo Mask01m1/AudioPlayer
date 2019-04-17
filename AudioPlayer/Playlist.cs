@@ -8,10 +8,14 @@ namespace AudioPlayer
 {
     class Playlist
     {
-        Song[] Songs;
         public string Path;
         public string Title;
 
-    }
+        Song[] Songs;
 
+        public Playlist()
+        {
+            var song1 = new Song();
+        }      
+    }
 }
